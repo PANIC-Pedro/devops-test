@@ -1,4 +1,6 @@
 from src.calculadora import soma
+from src.calculadora import subtracao
+from src.calculadora import multiplicacao
 
 def test_soma():
   assert soma(2 , 3) == 5
